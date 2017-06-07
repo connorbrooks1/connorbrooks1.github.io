@@ -20,7 +20,7 @@ html {
 body {
 background-image: url("<p><a href="https://wallpapersafari.com/free-wallpaper-site/"><img src="http://cdn.wallpapersafari.com/52/53/qZU8Ra.jpg" alt="Free Wallpaper Site" /></a><br /><a href="https://wallpapersafari.com/">wallpapersafari.com</a></p>");
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $white;
 }
 
 .container {
@@ -32,7 +32,7 @@ background-image: url("<p><a href="https://wallpapersafari.com/free-wallpaper-si
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $white;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $white;
   }
 }
 
